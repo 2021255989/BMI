@@ -14,12 +14,14 @@
         h1 {
             color: #333;
             text-align: center;
+            margin-top: 60px; /* Added space for buttons */
         }
         .operation-section {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 10px;
         }
         input {
             width: 100%;
@@ -99,18 +101,28 @@
         .map-game-button {
             right: 20px;
         }
+        
+        /* Header container to hold buttons and title */
+        .header-container {
+            position: relative;
+            width: 100%;
+            height: 80px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    <!-- JS Programs Button -->
-    <a href="https://2021255989.github.io/js-programs/" class="nav-button js-programs-button">
-        JS-Programs
-    </a>
-    
-    <!-- Map Game Button -->
-    <a href="https://2021255989.github.io/BZMAP-2/" class="nav-button map-game-button">
-        Map Game
-    </a>
+    <div class="header-container">
+        <!-- JS Programs Button -->
+        <a href="https://2021255989.github.io/js-programs/" class="nav-button js-programs-button">
+            JS-Programs
+        </a>
+        
+        <!-- Map Game Button -->
+        <a href="https://2021255989.github.io/BZMAP-2/" class="nav-button map-game-button">
+            Map Game
+        </a>
+    </div>
     
     <h1>BMI Calculator</h1>
 
