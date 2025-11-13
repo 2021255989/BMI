@@ -9,6 +9,7 @@
             margin: 0 auto;
             padding: 20px;
             background-color: #f5f5f5;
+            position: relative;
         }
         h1 {
             color: #333;
@@ -69,9 +70,48 @@
             background-color: #f44336;
             color: white;
         }
+        
+        /* Navigation buttons */
+        .nav-button {
+            position: absolute;
+            top: 20px;
+            color: white !important;
+            text-decoration: none;
+            font-family: verdana;
+            font-size: 105%;
+            padding: 8px 20px;
+            border: 1px solid #4CAF50;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            background-color: #4CAF50;
+        }
+
+        .nav-button:hover {
+            background-color: white;
+            color: #4CAF50 !important;
+            text-decoration: none;
+        }
+
+        .js-programs-button {
+            left: 20px;
+        }
+
+        .map-game-button {
+            right: 20px;
+        }
     </style>
 </head>
 <body>
+    <!-- JS Programs Button -->
+    <a href="https://2021255989.github.io/js-programs/" class="nav-button js-programs-button">
+        JS-Programs
+    </a>
+    
+    <!-- Map Game Button -->
+    <a href="https://2021255989.github.io/BZMAP-2/" class="nav-button map-game-button">
+        Map Game
+    </a>
+    
     <h1>BMI Calculator</h1>
 
     <div class="operation-section">
